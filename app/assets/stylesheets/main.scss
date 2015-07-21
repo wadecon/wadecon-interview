@@ -1,0 +1,80 @@
+html {
+	font-family: "Noto Sans Korean", "Noto Sans CJK KR" ,"AppleSDGothicNeo" ,"Helvetica Neue" ,Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+ul { width: 100%; height: 40px; padding:0;}
+li.left { float:left; }
+li.right { float:right; 	margin-right: 30px; line-height: 40px; }
+
+
+span.title {
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.menu > ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menu > ul > li {
+	display: inline;
+}
+
+span.description {
+	color: #D9CEC5;
+	font-size: 40px;
+}
+
+.description-part {
+	background-color: #F25764;
+	text-align: center;
+  line-height: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.wrapper-inner h2 {
+	text-align: center;
+}
+
+span.highlight {
+	color: #F3F3D4;
+}
+
+a {
+	color: #99BD41;
+}
+
+.wrapper-inner {
+	width: 700px;
+	margin: auto;	
+}
+
+.profiles {
+	margin-top: 30px;
+}
+
+.profile-card {
+	display: inline-block;
+	width: 300px;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	
+	border-radius: 10px;
+}
+
+.profile-card > span {
+	display: block;
+}
